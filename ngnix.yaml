@@ -27,6 +27,7 @@ metadata:
   labels:
     app: nginx
 spec:
+  Type: LoadBalancer 
   ports:
   - port: 80
     targetPort: 80
